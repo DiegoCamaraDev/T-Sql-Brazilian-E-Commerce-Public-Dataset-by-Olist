@@ -77,6 +77,13 @@ A pasta `/SQL Scripts` (sugestão de organização) contém as queries T-SQL uti
     * **Colunas Calculadas e Medidas DAX:** Foram criadas métricas essenciais como `Tempo de Entrega (dias)` e `Avaliação Média Geral` usando fórmulas DAX.
     * **Filtros Avançados:** Utilização de filtros "Top N" para ranquear categorias e estados.
     * **Interatividade:** Inclusão de KPIs e Segmentação de Dados para permitir uma análise dinâmica por parte do usuário.
+### 4. Dashboard em Power BI
+
+O arquivo final é um **Modelo do Power BI (`.pbit`)** para manter o tamanho do repositório otimizado. Para utilizá-lo:
+
+1.  Faça o download do arquivo `template_analise_olist.pbit`.
+2.  Ao abri-lo, o Power BI solicitará os parâmetros para a conexão com o banco de dados (o nome do seu servidor SQL).
+3.  Após fornecer as credenciais, o Power BI irá executar as consultas e carregar os dados do seu banco local, recriando o dashboard exatamente como foi projetado.
 
 ## Autor
 
